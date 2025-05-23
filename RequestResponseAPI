@@ -1,0 +1,14 @@
+using System.Net.Http;
+using System.Threading.Tasks;
+
+public class ApiClient
+{
+    private static readonly HttpClient client = new HttpClient();
+
+    public async Task<string> GetDataAsync(string url)
+    {
+        HttpResponseMessage response = await client.GetAsync(url);
+        response.EnsureSuccessStatusCode();
+        return await response.Content.ReadAsStringAsync();
+    }
+}
