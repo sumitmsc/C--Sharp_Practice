@@ -1,0 +1,19 @@
+// Online C# Editor for free
+// Write, Edit and Run your C# code using C# Online Compiler
+
+using System;
+
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {   
+        int a = Math.Max(345,6);
+        string name=Console.ReadLine();
+        string candies=Console.ReadLine();
+        Console.WriteLine($"Your name is {name}.You will get {candies} calndies");
+        Console.WriteLine(a);
+        Console.WriteLine ("Try programiz.pro");
+        Console.ReadLine();
+    }
+}
