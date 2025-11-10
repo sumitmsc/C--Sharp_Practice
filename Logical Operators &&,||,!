@@ -1,0 +1,19 @@
+// Revision Logical Operators &&,||,!
+
+using System;
+
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {   
+      //#Logical Operators &&,||,
+      
+      Console.WriteLine(true && false);
+      Console.WriteLine(false && true);
+      Console.WriteLine(true||false);
+      Console.WriteLine(!false);
+      Console.WriteLine(!true);
+       
+    }
+}
