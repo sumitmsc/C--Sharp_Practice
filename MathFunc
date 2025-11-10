@@ -1,0 +1,18 @@
+
+public class MathFunc
+{
+    public static void Main(string[] args)
+    {   
+      //
+      //int a=Math.Min(344,44);
+      //Console.WriteLine(a);
+      //Console.ReadLine();
+       //int b=Math.Max(344,44);
+      // double c=Math.Sqrt(39);
+       double c=Math.Abs(-39);
+      Console.WriteLine(c);
+      Console.ReadLine();
+      
+      
+    }
+}
