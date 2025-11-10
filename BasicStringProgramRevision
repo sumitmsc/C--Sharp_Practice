@@ -1,0 +1,17 @@
+//Basic String program revisioin with IndexOf, Substring and String
+
+using System;
+
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {   
+       string hello="Hello world this \' is harry";
+       Console.WriteLine(hello[0]);
+       Console.WriteLine(hello.IndexOf("is"));
+       Console.WriteLine(hello.Substring(1));
+       Console.WriteLine(hello);
+       
+    }
+}
